@@ -339,7 +339,7 @@ export default Vue.extend({
           const speedRange = `${speedmin}-${speedmax}`;
           content += ` - ${speedRange} ${this.$t('speed')}`;
           const speedNeeded = Math.ceil(speedmax * 1.05);
-          content += ` (100% outspeed: ${speedNeeded})`;
+          content += ` (${speedNeeded} to outspeed)`;
         }
         content += enemy.counter ? ` - ${this.$t('setCounter')}` : '';
         content += enemy.immunity ? ` - ${this.$t('setImmunity')}` : '';
