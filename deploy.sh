@@ -13,6 +13,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:jpanda109/epicseven.git main:gh-pages
+git push -f https://github.com/jpanda109/epicseven.git master:gh-pages
 
 cd -

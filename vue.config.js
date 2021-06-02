@@ -5,5 +5,5 @@ module.exports = {
       hints: false,
     },
   },
-  publicPath: process.env.NODE_ENV === 'production' ? './epicseven' : './',
+  publicPath: process.env.NODE_ENV === 'production' ? './' : './',
 };
