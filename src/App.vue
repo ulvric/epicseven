@@ -348,6 +348,7 @@ export default Vue.extend({
         }
         content += enemy.counter ? ` - ${this.$t('setCounter')}` : '';
         content += enemy.immunity ? ` - ${this.$t('setImmunity')}` : '';
+        content += enemy.lifesteal ? ` - ${this.$t('setLifesteal')}` : '';
         content += enemy.infos ? ` - ${enemy.infos}` : '';
         content += '\r\n';
       }

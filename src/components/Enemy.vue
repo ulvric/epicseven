@@ -43,6 +43,10 @@
             <input v-model="enemy.immunity" type="checkbox" />
             <img src="assets/images/Immunity.png" />
           </label>
+          <label>
+            <input v-model="enemy.lifesteal" type="checkbox" />
+            <img src="assets/images/Lifesteal.png" />
+          </label>
         </div>
       </div>
       <div class="col-md-9">
@@ -67,6 +71,7 @@ export interface Enemy {
   outspeed: boolean;
   counter: boolean;
   immunity: boolean;
+  lifesteal: boolean;
   infos: string;
 }
 
