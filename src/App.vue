@@ -83,6 +83,11 @@
         <div id="result" class="tab-pane">
           <div class="d-md-flex flex-md-row justify-content-md-end">
             <div class="p-2">
+              <button class="btn btn-secondary" v-on:click="updateReport">
+                {{ $t('forceUpdateForm') }}
+              </button>
+            </div>
+            <div class="p-2">
               <button class="btn btn-secondary" v-on:click="resetForm">
                 {{ $t('reset') }}
               </button>

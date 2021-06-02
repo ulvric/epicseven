@@ -14,6 +14,7 @@ export const en = {
   outspeedDesc: 'Is he play before me?',
   extraInfos: 'Extra infos...',
   heroesSaved: 'Heroes/speeds are saved locally',
+  forceUpdateForm: 'Force Update Form',
   copyText: 'Copy text to clipboard',
   copyTextSL: 'Copy text to clipboard(Single line)',
   reset: 'Reset form',
