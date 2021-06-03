@@ -328,7 +328,7 @@ export default Vue.extend({
           cr = crPushAlly > 0 ? cr + crPushAlly : cr;
           cr = crPush > 0 ? cr - crPush : cr;
           cr = crBonus > 0 ? (cr * 100) / (crBonus + 100) : cr;
-          let crMin = cr / 100;
+          let crMin = (cr - 5) / 100;
           let crMax = (cr + 5) / 100;
           if (enemy.outspeed) {
             if (speedDown) {
