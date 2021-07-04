@@ -28,6 +28,10 @@ export default Vue.extend({
   },
   methods: {
     setSelected(value: { _id: string; name: string }): void {
+      if (value == null) {
+        this.$emit('input', null);
+        return;
+      }
       this.$emit('input', value.name);
     },
   },
