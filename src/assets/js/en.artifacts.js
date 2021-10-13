@@ -70,6 +70,7 @@ export const en = [
   { _id: 'sword-of-holy-light', name: 'Sword of Holy Light', rarity: 5, role: '' },
   { _id: 'sword-of-judgment', name: 'Sword of Judgment', rarity: 5, role: 'ranger' },
   { _id: 'sword-of-summer-twilight', name: 'Sword of Summer Twilight', rarity: 5, role: 'assassin' },
+  { _id: 'sword-of-winter-shadow', name: 'Sword of Winter Shadow', rarity: 5, role: 'assassin' },
   { _id: 'time-matter', name: 'Time Matter', rarity: 5, role: 'mage' },
   { _id: 'torn-sleeve', name: 'Torn Sleeve', rarity: 5, role: 'assassin' },
   { _id: 'touch-of-rekos', name: 'Touch of Rekos', rarity: 5, role: 'manauser' },
